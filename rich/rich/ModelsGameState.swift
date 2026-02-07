@@ -344,6 +344,7 @@ class GameState {
             fieldState.suitLock = suitLock
         }
         
+        
         // 階段縛り
         if let sequenceLock = GameLogic.detectSequenceLock(
             newCards: newCards,
